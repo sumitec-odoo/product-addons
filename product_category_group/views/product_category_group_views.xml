@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="product_category_group_tree_view" model="ir.ui.view">
+        <field name="name">product.category.group.tree</field>
+        <field name="model">product.category.group</field>
+        <field name="arch" type="xml">
+            <tree string="Grupo de categoría de producto" >
+                <field name="name" />
+            </tree>
+	    </field>
+	</record>
+
+    <act_window id="action_product_category_group"  
+            name="Grupo de categoría de producto"
+            res_model="product.category.group" 
+            view_mode="tree,form"
+            target="current"/>
+
+    <menuitem action="action_product_category_group" id="menu_product_category_group" 
+    parent="stock.menu_product_in_config_stock" name="Grupo de categoría de producto" sequence="3" />
+
+ 	<!-- account.account_management_menu  -->
+
+</odoo>
