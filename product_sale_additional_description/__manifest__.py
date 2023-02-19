@@ -4,12 +4,14 @@
 {
     "name": "product_sale_additional_description",
     "summary": "",
-    "version": "12.0.1.0.0",
+    "version": "15.0.1.0.0",
     "category": "Product",
-    "website": "https://github.com/itsurnqn/misc-addons",
+    "website": "https://github.com/juanpgarza/product-addons",
     "author": "juanpgarza",
     "license": "AGPL-3",
-    "depends": ["product"],
+    "depends": [
+            "product",
+        ],
     "data": [
         'views/product_template.xml',        
         ],
