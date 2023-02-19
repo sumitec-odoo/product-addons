@@ -8,6 +8,7 @@
     "category": "Product",
     "website": "https://github.com/juanpgarza/product-addons",
     "author": "juanpgarza",
+    "license": "AGPL-3",
     "depends": ["product","stock"],
     "data": [
         'views/product_category_group_views.xml',
