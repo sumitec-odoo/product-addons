@@ -4,16 +4,19 @@
 {
     "name": "Product Category Group",
     "summary": "",
-    "version": "12.0.1.0.0",
+    "version": "15.0.1.0.0",
     "category": "Product",
     "website": "https://github.com/juanpgarza/product-addons",
     "author": "juanpgarza",
     "license": "AGPL-3",
-    "depends": ["product","stock"],
+    "depends": [
+                "product",
+                "stock",
+            ],
     "data": [
         'views/product_category_group_views.xml',
         'views/product_category_views.xml',        
         'security/ir.model.access.csv',        
         ],
-    "installable": False,
+    "installable": True,
 }
