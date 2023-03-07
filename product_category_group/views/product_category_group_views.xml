@@ -11,11 +11,11 @@
 	    </field>
 	</record>
 
-    <act_window id="action_product_category_group"  
-            name="Grupo de categoría de producto"
-            res_model="product.category.group" 
-            view_mode="tree,form"
-            target="current"/>
+    <record id="action_product_category_group" model="ir.actions.act_window">
+        <field name="name">Grupo de categoría de producto</field>
+        <field name="res_model">product.category.group</field>
+        <field name="view_mode">tree,form</field>
+    </record>
 
     <menuitem action="action_product_category_group" id="menu_product_category_group" 
     parent="stock.menu_product_in_config_stock" name="Grupo de categoría de producto" sequence="3" />
